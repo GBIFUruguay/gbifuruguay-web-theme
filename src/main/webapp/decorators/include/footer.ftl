@@ -9,7 +9,7 @@
 				<#if footerAdditionalInfoKey??>
 					<#if footerAdditionalInfoParamKey??>
 					<#attempt>
-				<li>${rc.getMessage(footerAdditionalInfoKey,[footerAdditionalInfoParamKey?eval])}</li>
+					<li>${rc.getMessage(footerAdditionalInfoKey, [.vars[footerAdditionalInfoParamKey]])}</li>
 					<#recover>
 					</#attempt>
 					<#else>
