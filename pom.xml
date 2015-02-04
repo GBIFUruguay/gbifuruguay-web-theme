@@ -10,7 +10,7 @@
 
 	<groupId>net.canadensys</groupId>
 	<artifactId>canadensys-web-theme</artifactId>
-	<version>0.3-SNAPSHOT</version>
+	<version>0.3</version>
 	<packaging>war</packaging>
 	<name>Canadensys web theme</name>
 	<description>The Canadensys web theme</description>
