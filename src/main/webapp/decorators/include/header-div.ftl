@@ -16,9 +16,9 @@
 		<#assign currentApp = rc.getContextPath()?replace("/", "")/>
 		<ul>
 			<li class="menu_first">&nbsp;</li>
-			<li<#if currentApp = "explorer"> class="page_item current_page_item"</#if>><a href="${rc.getMessage("cwt.header.link.occurrences")}">${rc.getMessage("cwt.header.menu.occportal")}</a></li>	
-			<li<#if currentApp = "resources"> class="page_item current_page_item"</#if>><a href="${rc.getMessage("cwt.header.link.resources")}">${rc.getMessage("cwt.header.menu.resources")}</a></li>
-			<li<#if currentApp = "publishers"> class="page_item current_page_item"</#if>><a href="${rc.getMessage("cwt.header.link.publishers")}">${rc.getMessage("cwt.header.menu.publishers")}</a></li>
+			<li><a href="${rc.getContextPath()}/${rc.getMessage("cwt.header.link.occurrences")}">${rc.getMessage("cwt.header.menu.occportal")}</a></li>	
+			<li><a href="${rc.getContextPath()}/${rc.getMessage("cwt.header.link.resources")}">${rc.getMessage("cwt.header.menu.resources")}</a></li>
+			<li><a href="${rc.getContextPath()}/${rc.getMessage("cwt.header.link.publishers")}">${rc.getMessage("cwt.header.menu.publishers")}</a></li>
 			<li class="menu_last">&nbsp;</li>
 		</ul>
 	</div>
