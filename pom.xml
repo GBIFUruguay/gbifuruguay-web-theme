@@ -8,13 +8,13 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>net.canadensys</groupId>
-	<artifactId>canadensys-web-theme</artifactId>
+	<groupId>winglongitude</groupId>
+	<artifactId>web-theme</artifactId>
 	<version>0.4-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>Canadensys web theme</name>
-	<description>The Canadensys web theme</description>
-	<url>http://canadensys.net</url>
+	<name>Web theme</name>
+	<description>Web theme for the customization of the WingLongitude explorer.</description>
+	<url>http://github.com/WingLongitude</url>
 	<licenses>
 		<license>
 			<name>MIT License</name>
@@ -23,14 +23,17 @@
 		</license>
 	</licenses>
 	<scm>
-		<url>git@github.com:Canadensys/canadensys-web-theme.git</url>
-		<connection>scm:git:git@github.com:Canadensys/canadensys-web-theme.git</connection>
-		<developerConnection>scm:git:git@github.com:Canadensys/canadensys-web-theme.git</developerConnection>
+		<url>git@github.com:WingLongitude/web-theme.git</url>
+		<connection>scm:git:git@github.com:WingLongitude/web-theme.git</connection>
+		<developerConnection>scm:git:git@github.com:WingLongitude/web-theme.git</developerConnection>
 	</scm>
 
 	<developers>
 		<developer>
 			<name>Christian Gendreau</name>
+		</developer>
+		<developer>
+			<name>Pedro Guimarães</name>
 		</developer>
 	</developers>
 

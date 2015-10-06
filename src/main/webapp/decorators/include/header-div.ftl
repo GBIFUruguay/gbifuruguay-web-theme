@@ -10,18 +10,16 @@
     <a href="${page.otherLanguage[currLang]}">${rc.getMessage("cwt.header.language."+currLang)}</a><#if currLang_has_next> | </#if>
     </#list>
     </div>
-		<div id="nav_title" class="png"><a href="${rc.getMessage("cwt.header.title.url")}">${rc.getMessage("cwt.header.title")}</a></div>
-		<div id="nav_portal"><span class="selected">${rc.getMessage("cwt.header.data")}</span> | <a href="${rc.getMessage("cwt.header.community.url")}">${rc.getMessage("cwt.header.community")}</a></div>
+		<div id="nav_title"><a href="${rc.getMessage("cwt.header.link.occurrences")}">${rc.getMessage("cwt.header.title")}</a></div>
 	</div>
 	<div id="menu">
 		<#assign currentApp = rc.getContextPath()?replace("/", "")/>
 		<ul>
 			<li class="menu_first">&nbsp;</li>
-			<li<#if currentApp = "explorer"> class="page_item current_page_item"</#if>><a href="${rc.getMessage("cwt.header.menu.occportal.url")}">${rc.getMessage("cwt.header.menu.occportal")}</a></li>	
-			<li<#if currentApp = "ipt"> class="page_item current_page_item"</#if>><a href="${rc.getMessage("cwt.header.menu.ipt.url")}">${rc.getMessage("cwt.header.menu.ipt")}</a></li>
-			<li<#if currentApp = "tools" || currentApp ="narwhal-api"> class="page_item current_page_item"</#if>><a href="${rc.getMessage("cwt.header.menu.tools.url")}">${rc.getMessage("cwt.header.menu.tools")}</a></li>
-			<li<#if currentApp = "vascan"> class="page_item current_page_item"</#if>><a href="${rc.getMessage("cwt.header.menu.vascan.url")}">${rc.getMessage("cwt.header.menu.vascan")}</a></li>
+			<li<#if currentApp = "explorer"> class="page_item current_page_item"</#if>><a href="${rc.getMessage("cwt.header.link.occurrences")}">${rc.getMessage("cwt.header.menu.occportal")}</a></li>	
+			<li<#if currentApp = "resources"> class="page_item current_page_item"</#if>><a href="${rc.getMessage("cwt.header.link.resources")}">${rc.getMessage("cwt.header.menu.resources")}</a></li>
+			<li<#if currentApp = "publishers"> class="page_item current_page_item"</#if>><a href="${rc.getMessage("cwt.header.link.publishers")}">${rc.getMessage("cwt.header.menu.publishers")}</a></li>
 			<li class="menu_last">&nbsp;</li>
-		</ul>  
+		</ul>
 	</div>
 </div>
