@@ -1,6 +1,8 @@
 <header class="main-header">
+
     <a href="#" class="logo">
-        <img src="/explorer/assets/images/logo-mvotma.png" width="136px" heigth="24px"/>
+        <img src="/explorer/assets/images/logo-mec2.jpg" />
+        <img src="/explorer/assets/images/logo-mvotma2.png" />
     </a>
 
     <!-- Header Navbar -->
