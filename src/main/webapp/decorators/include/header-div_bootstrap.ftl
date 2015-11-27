@@ -12,7 +12,7 @@
             </a>
         
         <div class="title">
-            <a href="${rc.getMessage("cwt.header.link.occurrences")}">${rc.getMessage("cwt.header.title")}</a>
+            <a href="${rc.getMessage("cwt.header.link.index")}">${rc.getMessage("cwt.header.title")}</a>
         </div>
         <!-- Navbar Right Menu -->
         <div class="navbar-custom-menu">
